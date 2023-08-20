@@ -1,0 +1,55 @@
+.play-section{
+
+    width: 50%; 
+    height: 300px; 
+    
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 25%;   
+    margin-top: 100px;
+
+} 
+.user-choice{
+    width: 150px; 
+    height: 150px;  
+    border-radius: 50%; 
+    border: 8px solid rgb(2, 70, 18);  
+   
+        cursor: pointer; 
+        background-color: blue; 
+        margin-top: 60px; 
+        margin-left: 20px;
+} 
+.computer-choice{
+    width: 150px; 
+    height: 150px;  
+    border-radius: 50%; 
+    border: 8px solid rgb(149, 14, 66);  
+   
+        cursor: pointer; 
+         
+        margin-top: 60px; 
+        margin-right: 20px;
+} 
+.result-and-play-place{
+
+margin-top: 80px; 
+width: 200px; 
+height: 90px; 
+
+} 
+.result-and-play-place span{
+    color: #fff; 
+    font-size: 25px;  
+    margin-left: 50px;
+
+} 
+.result-and-play-place button{
+    width: 200px; 
+    height: 50px; 
+    background-color: #fff; 
+    color: blue; 
+    border-radius: 8px;   
+    font-size: 20px;
+    cursor: pointer;
+} 
